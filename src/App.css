@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Layout styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .workout-history {
+    margin-top: 40px;
+  }
+  
+  /* Form styles */
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Workout list styles */
+  .workout-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .workout-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .workout-item p {
+    margin: 5px 0;
+  }
+  
